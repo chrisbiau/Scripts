@@ -11,8 +11,8 @@ import PIL.Image as PILimage
 
 
 
-inputDir ='D:\\Users\\Bureautique\\Desktop\\photo_Lorene_save_fevrier_2020'
-outputDir='D:\\Users\\Bureautique\\Desktop\\SORTEDphoto_Lorene_save_fevrier_2020'
+inputDir =r'D:\Users\Bureautique\Desktop\SaveKris2\Camera'
+outputDir=r'D:\Users\Bureautique\Desktop\SaveKris2\CameraSorted'
 
 SplitTypes = []
 
@@ -27,7 +27,7 @@ def getCreationTimeInFileName(filename):
     if "-" in filename:
         r = filename.split("-")[1]
     elif "_" in filename:
-        r = filename.split("_")[1]
+        r = filename.split("_")[0]
     else:
         r = None
 
