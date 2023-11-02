@@ -1,7 +1,6 @@
 
-python3 -m pip install --upgrade pip
+python.exe -m pip install --upgrade pip
 
-python3 -m pip install --upgrade Pillow
+python.exe -m pip install --upgrade Pillow
 
-
-pip install moviepy
+python.exe -m pip install --upgrade ffmpeg-python
